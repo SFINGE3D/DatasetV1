@@ -5,7 +5,8 @@ SFINGE 3D: A novel benchmark for online detection and recognition of heterogeneo
 by Ariel Caputo, Andrea Giachetti, Franca Giannini, Katia Lupinetti, Marina Monti, Marco Pegoraro and Andrea Ranieri
 (please cite it in works using the dataset.
 
-It includes two folders, 
+It includes two parts stored in the corresponding folders, Dictionary and Sequences.
+
 ## Dictionary
 includes instances of segmented finger trajectories, each one encoded in a text file where the rows are consecutive fingers poses captured at 20 fps, where data are positions (x,y,z) and  orientation quaternions (x,y,z,w) of the 20 joints encoded. 
 The structure of a row is summarized in the following scheme:
@@ -33,7 +34,7 @@ There are 13 subfolders (1-13) corresponding to the different gestures
 each one including 36 instances.
 
 ## Sequences
-includes long sequences of hand poses  captured at 20 fps, similarly encoded, where a few gestures (3-5) should be localized in the correct time location. 
+includes long sequences of hand poses  captured at 20 fps, similarly encoded, where a few gestures (3 to 5) should be localized in the correct time location. 
 
 
 ## Annotation and evaluation
