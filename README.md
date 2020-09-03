@@ -6,7 +6,7 @@ by Ariel Caputo, Andrea Giachetti, Franca Giannini, Katia Lupinetti, Marina Mont
 (please cite it in works using the dataset.
 
 It includes two folders, 
-# Dictionary
+## Dictionary
 includes instances of segmented finger trajectories, each one encoded in a text file where the rows are consecutive fingers poses captured at 20 fps, where data are positions (x,y,z) and  orientation quaternions (x,y,z,w) of the 20 joints encoded. 
 The structure of a row is summarized in the following scheme:
 palmpos(x;y;z);palmquat(x,y,z,w);thumbApos(x;y;z);thumbAquat(x;y;z;w);thumBpos(x;y;z);thumbBquat(x;y;z;w);thumbEndpos(x;y;z);thumbEndquat(x;y;z;w);indexApos(x;y;z);indexAquat(x;y;z;w);indexBpos(x;y;z);indexBquat(x;y;z;w);indexCpos(x;y;z);indexCquat(x;y;z;w);indexEndpos(x;y;z);indexEndquat(x;y;z;w);middleApos(x;y;z);middleAquat(x;y;z;w);middleBpos(x;y;z);middleBquat(x;y;z;w);middleCpos(x;y;z);middleCquat(x;y;z;w);middleEndpos(x;y;z);middleEndquat(x;y;z;w);ringApos(x;y;z);ringAquat(x;y;z;w);ringBpos(x;y;z);ringBquat(x;y;z;w);ringCpos(x;y;z);ringCquat(x;y;z;w);ringEndpos(x;y;z);ringEndquat(x;y;z;w);pinkyApos(x;y;z)pinkyAquat(x;y;z;w);pinkyBpos(x;y;z)pinkyBquat(x;y;z;w);pinkyCpos(x;y;z)pinkyCquat(x;y;z;w)pinkyEndpos(x;y;z)pinkyEndquat(x;y;z;w)
@@ -31,11 +31,11 @@ There are 13 subfolders (1-13) corresponding to the different gestures
 
 each one including 36 instances.
 
-# Sequences
+## Sequences
 includes long sequences of hand poses  captured at 20 fps, similarly encoded, where a few gestures (3-5) should be localized in the correct time location. 
 
 
-# Annotation and evaluation
+## Annotation and evaluation
 The Sequence folder includes also a file sequencesGT.csv with the annotation of the position of the gestures to be found in each sequence. This is a text file where each line includes the following comma separated values. The first two values are the sequence index and number of gestures in the sequence.
 The following are, for each gesture hidden in the sequence, the gesture label (1-13) the starting frame id, the ending frame id.
 
