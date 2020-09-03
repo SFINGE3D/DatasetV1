@@ -12,6 +12,7 @@ The structure of a row is summarized in the following scheme:
 palmpos(x;y;z);palmquat(x,y,z,w);thumbApos(x;y;z);thumbAquat(x;y;z;w);thumBpos(x;y;z);thumbBquat(x;y;z;w);thumbEndpos(x;y;z);thumbEndquat(x;y;z;w);indexApos(x;y;z);indexAquat(x;y;z;w);indexBpos(x;y;z);indexBquat(x;y;z;w);indexCpos(x;y;z);indexCquat(x;y;z;w);indexEndpos(x;y;z);indexEndquat(x;y;z;w);middleApos(x;y;z);middleAquat(x;y;z;w);middleBpos(x;y;z);middleBquat(x;y;z;w);middleCpos(x;y;z);middleCquat(x;y;z;w);middleEndpos(x;y;z);middleEndquat(x;y;z;w);ringApos(x;y;z);ringAquat(x;y;z;w);ringBpos(x;y;z);ringBquat(x;y;z;w);ringCpos(x;y;z);ringCquat(x;y;z;w);ringEndpos(x;y;z);ringEndquat(x;y;z;w);pinkyApos(x;y;z)pinkyAquat(x;y;z;w);pinkyBpos(x;y;z)pinkyBquat(x;y;z;w);pinkyCpos(x;y;z)pinkyCquat(x;y;z;w)pinkyEndpos(x;y;z)pinkyEndquat(x;y;z;w)
 where the joint positions corresponds to those reported in the following image.
 Each joint is therefore characterized by 7 floats, three for position and four for the quaternion, the sequence starts from the palm, then the thumb with three joints ending with the tip and then the other four fingers with four joints each ending with the tip.
+![joints](/images/logo.png)
 
 There are 13 subfolders (1-13) corresponding to the different gestures 
 
